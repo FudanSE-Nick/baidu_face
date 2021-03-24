@@ -57,14 +57,13 @@ dns:
   enable: true
   enhanced-mode: fake-ip
   nameserver:
-     - https://dns.rubyfish.cn/dns-query
      - tls://dns.rubyfish.cn:853
+     - https://dns.rubyfish.cn/dns-query
      - 119.29.29.29 # 腾讯DNS
   fallback:
-     - 1.1.1.1 # Cloudflare DNS
      - tls://dns.rubyfish.cn:853
      - tls://1.0.0.1:853
-     - tls://dns.google:853
+     - 1.1.1.1 # Cloudflare DNS
      - https://dns.rubyfish.cn/dns-query
      - https://cloudflare-dns.com/dns-query
      - https://dns.google/dns-query
