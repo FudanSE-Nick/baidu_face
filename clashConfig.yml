@@ -57,11 +57,13 @@ dns:
   enable: true
   enhanced-mode: fake-ip
   nameserver:
-    - 202.120.224.26
-    - 61.129.42.6
     - tls://dns.rubyfish.cn:853
     - 119.29.29.29
+    - 202.120.224.26
+    - 61.129.42.6
   fallback:
+     - https://cloudflare-dns.com/dns-query
+     - https://dns.google/dns-query
      - tls://dns.rubyfish.cn:853
      - https://dns.rubyfish.cn/dns-query
   fake-ip-filter: # fake ip white domain list
