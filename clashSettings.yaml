@@ -6,7 +6,8 @@ mixinText: |-
       dns-hijack: # DNS劫持设置为系统DNS
         - 119.29.29.29 # 可任意设置，但为了保证CFW关闭后能不影响联网，建议设置真实能访问的DNS服务器
       macOS-auto-route: true
-      macOS-auto-detect-interface: true # 自动检测出口网卡
+      #macOS-auto-detect-interface: true # 自动检测出口网卡
+    interface-name: en5
 showNewVersionIcon: true
 hideAfterStartup: true
 randomControllerPort: true
@@ -15,3 +16,7 @@ connProfile: true
 connMode: true
 connProxy: 2
 proxyOrder: 0
+profilePath: /Users/nick/OneDrive - fudanse/ClashForWindows
+lightweightMode: false
+iconSpeed: false
+editor: 0
