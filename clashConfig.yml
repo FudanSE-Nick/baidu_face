@@ -57,8 +57,8 @@ dns:
   enable: true
   enhanced-mode: fake-ip
   nameserver:
-    - 119.29.29.29
     - tls://dns.rubyfish.cn:853
+    - 119.29.29.29
     - 202.120.224.26
     - 61.129.42.6
   fallback:
